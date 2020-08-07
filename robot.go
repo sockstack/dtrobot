@@ -1,9 +1,9 @@
 package dtrobot
 
 import (
-	"cn.sockstack/dtrobot/message"
-	"cn.sockstack/dtrobot/pkg/encode"
 	"fmt"
+	"github.com/sockstack/dtrobot/message"
+	"github.com/sockstack/dtrobot/pkg/encode"
 	"time"
 )
 

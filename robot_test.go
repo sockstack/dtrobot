@@ -1,8 +1,8 @@
 package dtrobot
 
 import (
-	"cn.sockstack/dtrobot/message"
 	"fmt"
+	"github.com/sockstack/dtrobot/message"
 	"testing"
 )
 
