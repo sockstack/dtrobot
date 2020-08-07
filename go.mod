@@ -1,4 +1,4 @@
-module cn.sockstack/dtrobot
+module github.com/sockstack/dtrobot
 
 go 1.14
 
