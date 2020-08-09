@@ -42,6 +42,7 @@ func NewRobot(accessToken string, handles... optionHandle) (*robot, error) {
 		AccessToken: accessToken,
 		Timestamp: time.Now().Unix() * 1000,
 	}
+	fmt.Println(o.Timestamp)
 	for _, handle := range handles {
 		handle(o)
 	}
