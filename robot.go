@@ -7,8 +7,6 @@ import (
 	"time"
 )
 
-var r *robot
-
 type robot struct {
 	Options *options
 }
@@ -51,10 +49,8 @@ func NewRobot(accessToken string, handles... optionHandle) (*robot, error) {
 		o.Sign = sign
 	}
 
-	if r == nil {
-		r = &robot{
-			Options: o,
-		}
+	r := &robot{
+		Options: o,
 	}
 
 	return r, nil
